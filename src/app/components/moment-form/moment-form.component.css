@@ -1,0 +1,5 @@
+.validation-error p{
+    color: #dc3545;
+    margin-top: .4m;
+    border-left: 3px solid #dc3545;
+}

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class NewMomentComponent {
 
+  btnText= "Compartilhar!";
+
+  createdHandler(event: any) {
+    console.log("Deu bom")
+  }
 }
