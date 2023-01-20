@@ -1,3 +1,4 @@
+import { EditMomentComponent } from './components/pages/edit-moment/edit-moment.component';
 import { MomentComponent } from './components/pages/moment/moment.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -9,7 +10,8 @@ const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'about', component: AboutComponent},
   {path: 'new', component: NewMomentComponent},
-  {path: 'moment/:id', component: MomentComponent}
+  {path: 'moment/edit/:id', component: EditMomentComponent},
+  {path: 'moment/:id', component: MomentComponent},
 ];
 
 @NgModule({
